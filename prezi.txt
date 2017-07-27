@@ -1,0 +1,214 @@
+:data-transition-duration: 300
+:skip-help: true
+:css: css/index.css
+
+.. title:: Docker - Hype or The Future?
+
+Docker - Hype or The Future?
+============================
+
+-----
+
+My name is Alex
+---------------
+I'm Ruby dev
+------------
+I've been working with Docker for a while
+-----------------------------------------
+
+-----
+
+
+Docker Experience
+=================
+* 5 Years Experience with Docker Swarm
+* 8 Years with Kubernates
+* 10 Years with Docker on production
+* Everything on local machine works from separate Docker container.
+* Everyday reading about new Docker features and related articles at least for 3 hours
+
+.. note::
+
+    Everything is (ruby, rails, db, redis, elastic, sphinx, vim, less, cat, echo)
+
+-----
+
+All this not about me
+---------------------
+
+¯\\_(ツ)_/¯
+===========
+
+-----
+
+
+My Docker Experience
+============================
+
+* I run a few containers on prod
+* I use Docker sometimes for development too
+
+.. note::
+
+    I run a few containers on prod. - Some of them already dead :( Not b/c of Docker for sure
+
+    I use Docker sometimes for development: it reduce time needed to install and configure soft deps on a project.
+
+-----
+
+A Story
+=======
+
+.. image:: images/callme.jpg
+    :height: 560px
+    :width: 800px
+
+.. note::
+
+    A friend called me yesterday and said:
+    > I've just installed. Seems like it cool! Everything works fine but...
+    > I have a question: for what(why?) should I use it?"
+    And I got I need some time to think about it actually...
+
+-----
+
+.. image:: images/hipe.png
+    :height: 300px
+    :width: 800px
+
+-----
+
+.. image:: images/whoisusing.jpg
+    :height: 560px
+    :width: 800px
+
+-----
+
+When is the time to use Docker?
+===============================
+
+.. image:: images/itstime.gif
+
+-----
+
+.. image:: images/simple.jpg
+    :height: 400px
+    :width: 700px
+
+.. note::
+
+    not when like this
+
+-----
+
+.. image:: images/complex.png
+
+.. note::
+
+    maybe it's time to use Docker
+
+-----
+
+How did we live without Docker?
+===============================
+
+.. image:: images/back-to-the-future.gif
+    :height: 400px
+    :width: 650px
+
+-----
+
+Bob
+===
+
+.. image:: images/bob.jpg
+    :height: 600px
+    :width: 650px
+
+.. note:: 
+    * [Dev] 2 projects with 1 overlay dependency
+    * [Dev] Software upgrade on project (mysql 5.5 => 5.7)
+    * [Dev] Set up environment for new developer
+    * [Prod] (but talk about flicky bugs)DBA/Sysadmin(?) made hotfix on production
+    * [Prod] (not all projects on AWS; last time not all believe even AWS) migrate to another hosting
+    * [Prod] (issues can happen on deploying process: bundler or smth isn't achievable) can help to harden deploy process: you only would need to change DNS
+
+-----
+
+.. image:: images/docker.png
+
+comes to the resque!
+====================
+
+.. note::
+    * you can run the different versions of a service on the same machine on different ports
+    * you can easily switch between different version of a specific software
+    * you can describe env settings once and use 1 command for setting up new instance of project on another machine
+    * you won't get difference between staging and production if both of them run from the same image
+    * you won't be dependent on your cloud provider once you set up Docker for prod
+    * you can deploy only what you double checked on a server near
+
+-----
+
+What we are going to do with it?
+================================
+
+-----
+
+Time to learn!!!
+================
+
+-----
+
+What are we planning to cover?
+==============================
+
+* Install Docker
+* Understand how it works
+* Create a container
+* Create an image
+* Write your own Dockerfile
+
+.. note::
+    Overall: we'll play with docker. Now let's try to guess what service we'll use?
+
+-----
+
+play-with-docker.com
+====================
+
+.. image:: images/play-with-docker.png
+    :height: 560px
+    :width: 800px
+
+-----
+
+Features:
+=========
+
+* Docker exists for Linux, Mac and Windows. But now you can run Docker in Web!
+* Replecated sessions: you can collaborate if you(your friend) have a problem
+* Zero setup time
+* Super fast internet connection.
+* Swarm mode works too!
+* Exposed ports are available on the Internet.
+
+-----
+
+.. code:: bash
+
+    docker run -r hello_world echo "Demo Time"
+
+-----
+
+The End
+=======
+
+Thanks
+======
+
+-----
+
+Questions?
+==========
+

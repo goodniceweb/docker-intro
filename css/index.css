@@ -1,0 +1,22 @@
+body {
+  background: radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
+}
+h1 {
+  padding-left: 35px;
+}
+.step {
+  text-align: center;
+}
+ul, ol {
+  list-style: none;
+}
+li {
+  margin-bottom: 10px;
+  font-size: 1.3em;
+}
+pre {
+  font-size: 1.5em;
+}
+#step-14 {
+  color: #006fb6;
+}
